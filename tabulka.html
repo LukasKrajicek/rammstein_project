@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukázka tvorby menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .l-heading {
+            font-size: 3.5rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.1;
+
+
+        }
+
+        .lead {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+
+        }
+
+        .btn:hover {
+            background-color: 	#e56009;
+        }
+
+        
+        
+        #navbar {
+            background-color: grey;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+        }
+
+        #navbar .logo {
+            margin: 0 12px;
+        }
+
+        #navbar ul {
+            display: flex;
+            list-style: none;
+
+        }
+
+        #navbar ul li {
+            margin: 0 12px;
+            padding: 0 4px;
+        }
+
+        #navbar ul li a {
+            margin: 0 4px;
+            padding: 0 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        #navbar ul li a:hover {
+            background-color: black;
+            color: white;
+            
+
+        }
+
+        #showcase {
+            background: #333 url(rammstein_olaf_heine.jpg) no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+        }
+
+        #showcase .showcase-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 0 2rem;
+            background-color: rgba(0, 0, 0, 0.5)
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <nav id="navbar">
+        <i class="logo"> </i>Členové kapely</div>
+        <ul>
+            <li><a href="index.html"> <i class="fa-solid fa-house"> </i>Vrátit se zpět</a></li>
+        </ul>
+
+
+
+    </nav>
+<!-- header: Showcase -->
+    <div id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">Členové Kapely</h1>
+            <p class="lead">
+
+                <table>
+
+                    <tr>
+                      <td>Till Lindemann</td>
+                      <td>Zpěv</td>
+                    </tr>
+                    <tr>
+                      <td>Richard Z. Kruspe</td>
+                      <td>Kytara (sólová)</td>
+                    </tr>
+                    <tr>
+                      <td>Paul Landers</td>
+                      <td>Kytara (rytmická)</td>
+                    </tr>
+                    <tr>
+                      <td>Oliver Riedel</td>
+                      <td>Baskytara</td>
+                    </tr>
+                    <tr>
+                      <td>Christoph Schneider</td>
+                      <td>Bicí</td>
+                    </tr>
+                    <tr>
+                      <td>Christian "Flake" Lorenz</td>
+                      <td>Klávesy</td>
+                    </tr>
+                  </table>
+
+
+
+</body>
+</html>
